@@ -1,292 +1,55 @@
-[12:46:04] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[12:46:06] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[12:46:06] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[12:46:06] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[12:46:06] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[12:46:06] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[12:46:06] [main/INFO]: Reloading ResourceManager: Default
-[12:46:07] [Worker-Main-13/INFO]: Loaded 7 recipes
-[12:46:08] [Worker-Main-13/INFO]: Loaded 927 advancements
-[12:46:12] [Server thread/INFO]: Starting minecraft server version 1.16.5
-[12:46:12] [Server thread/INFO]: Loading properties
-[12:46:12] [Server thread/INFO]: Default game type: SURVIVAL
-[12:46:12] [Server thread/INFO]: Generating keypair
-[12:46:12] [Server console handler/ERROR]: Exception handling console input
+[16:29:28] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[16:29:28] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:29:28] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:29:28] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[16:29:28] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:29:28] [main/INFO]: Reloading ResourceManager: Default
+[16:29:29] [Worker-Main-12/INFO]: Loaded 7 recipes
+[16:29:30] [Worker-Main-12/INFO]: Loaded 927 advancements
+[16:29:33] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[16:29:33] [Server thread/INFO]: Loading properties
+[16:29:33] [Server thread/INFO]: Default game type: SURVIVAL
+[16:29:33] [Server thread/INFO]: Generating keypair
+[16:29:33] [Server console handler/ERROR]: Exception handling console input
 java.io.IOException: The handle is invalid
-	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_51]
-	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_51]
-	at java.io.BufferedInputStream.read1(Unknown Source) ~[?:1.8.0_51]
-	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_51]
-	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source) ~[?:1.8.0_51]
-	at sun.nio.cs.StreamDecoder.implRead(Unknown Source) ~[?:1.8.0_51]
-	at sun.nio.cs.StreamDecoder.read(Unknown Source) ~[?:1.8.0_51]
-	at java.io.InputStreamReader.read(Unknown Source) ~[?:1.8.0_51]
-	at java.io.BufferedReader.fill(Unknown Source) ~[?:1.8.0_51]
-	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_51]
-	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_51]
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_291]
+	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_291]
+	at java.io.BufferedInputStream.read1(Unknown Source) ~[?:1.8.0_291]
+	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_291]
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source) ~[?:1.8.0_291]
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source) ~[?:1.8.0_291]
+	at sun.nio.cs.StreamDecoder.read(Unknown Source) ~[?:1.8.0_291]
+	at java.io.InputStreamReader.read(Unknown Source) ~[?:1.8.0_291]
+	at java.io.BufferedReader.fill(Unknown Source) ~[?:1.8.0_291]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_291]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_291]
 	at zg$1.run(SourceFile:95) [server.jar:?]
-[12:46:13] [Server thread/INFO]: Starting Minecraft server on 192.168.0.109:25565
-[12:46:13] [Server thread/INFO]: Using default channel type
-[12:46:14] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[12:46:14] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[12:46:14] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[12:46:14] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[12:46:14] [Server thread/INFO]: Preparing level "world"
-[12:46:14] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[12:46:17] [Server thread/INFO]: Preparing spawn area: 0%
-[12:46:17] [Server thread/INFO]: Preparing spawn area: 0%
-[12:46:17] [Server thread/INFO]: Preparing spawn area: 0%
-[12:46:17] [Server thread/INFO]: Preparing spawn area: 0%
-[12:46:17] [Server thread/INFO]: Preparing spawn area: 0%
-[12:46:17] [Server thread/INFO]: Preparing spawn area: 0%
-[12:46:18] [Server thread/INFO]: Preparing spawn area: 0%
-[12:46:18] [Server thread/INFO]: Preparing spawn area: 31%
-[12:46:20] [Server thread/INFO]: Time elapsed: 5615 ms
-[12:46:20] [Server thread/INFO]: Done (5.884s)! For help, type "help"
-[12:46:48] [Server thread/INFO]: Imyourmama123[/192.168.0.105:56846] logged in with entity id 287 at (171.4634415286743, 71.0, -64.96250629971617)
-[12:46:48] [Server thread/INFO]: Imyourmama123 joined the game
-[12:47:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2070ms or 41 ticks behind
-[12:47:19] [Server thread/INFO]: NotRealIcytea[/192.168.0.109:51611] logged in with entity id 473 at (172.49690228033623, 71.0, -65.42510293811418)
-[12:47:19] [Server thread/INFO]: NotRealIcytea joined the game
-[12:51:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2064ms or 41 ticks behind
-[12:51:41] [Server thread/INFO]: Imyourmama123 has made the advancement [Spooky Scary Skeleton]
-[12:52:49] [Server thread/INFO]: Imyourmama123 has made the advancement [Not Today, Thank You]
-[12:55:24] [Server thread/INFO]: Imyourmama123 was slain by Zombified Piglin
-[13:21:44] [Server thread/INFO]: NotRealIcytea has made the advancement [Suit Up]
-[13:30:22] [Server thread/INFO]: NotRealIcytea has made the advancement [We Need to Go Deeper]
-[13:31:13] [Server thread/INFO]: Imyourmama123 tried to swim in lava
-[13:31:15] [Server thread/INFO]: NotRealIcytea tried to swim in lava
-[13:38:09] [Server thread/INFO]: NotRealIcytea tried to swim in lava
-[13:38:34] [Server thread/INFO]: Teleported NotRealIcytea to Imyourmama123
-[13:40:41] [Server thread/INFO]: NotRealIcytea has made the advancement [A Terrible Fortress]
-[13:41:30] [Server thread/INFO]: NotRealIcytea has made the advancement [Spooky Scary Skeleton]
-[13:43:20] [Server thread/INFO]: NotRealIcytea withered away
-[13:43:45] [Server thread/INFO]: Teleported NotRealIcytea to Imyourmama123
-[13:45:09] [Server thread/INFO]: NotRealIcytea has made the advancement [Into Fire]
-[13:45:15] [Server thread/INFO]: NotRealIcytea has made the advancement [Diamonds!]
-[13:48:19] [Server thread/INFO]: Imyourmama123 was slain by Zombified Piglin
-[13:48:28] [Server thread/INFO]: NotRealIcytea was slain by Zombified Piglin
-[13:54:29] [Server thread/INFO]: Imyourmama123 has made the advancement [Local Brewery]
-[13:55:12] [Server thread/INFO]: <NotRealIcytea> haha
-[13:55:39] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[13:55:39] [Server thread/INFO]: The server will close in 10 minutes, please disconnect!<--[HERE]
-[13:55:59] [Server thread/INFO]: [Server] The server will close in 10 minutes, please disconnect
-[13:56:10] [Server thread/INFO]: [Server] hihi troll thoi
-[13:56:30] [Server thread/INFO]: Unknown item 'minecraft:nether_warts'
-[13:56:30] [Server thread/INFO]: ...urmama123 minecraft:nether_warts 64<--[HERE]
-[13:56:57] [Server thread/INFO]: Gave 64 [Nether Wart] to Imyourmama123
-[14:09:45] [Server thread/INFO]: NotRealIcytea lost connection: Disconnected
-[14:09:45] [Server thread/INFO]: NotRealIcytea left the game
-[14:10:41] [Server thread/INFO]: NotRealIcytea[/192.168.0.109:63274] logged in with entity id 14122 at (183.98294541741134, 70.0, -70.91141818135729)
-[14:10:41] [Server thread/INFO]: NotRealIcytea joined the game
-[14:12:13] [Server thread/INFO]: NotRealIcytea lost connection: Disconnected
-[14:12:13] [Server thread/INFO]: NotRealIcytea left the game
-[14:12:24] [Server thread/INFO]: NotRealIcytea[/192.168.0.109:63283] logged in with entity id 14334 at (172.27554738869074, 71.5, -65.17697261354438)
-[14:12:24] [Server thread/INFO]: NotRealIcytea joined the game
-[14:13:02] [Server thread/INFO]: [Server] e cuc cut
-[14:13:07] [Server thread/INFO]: [Server] ngao
-[14:13:11] [Server thread/INFO]: [Server] xin loi
-[14:13:17] [Server thread/INFO]: [Server] hahahahahaahhahaha
-[14:13:28] [Server thread/INFO]: [Server] The server will now close!
-[14:16:00] [Server thread/INFO]: [Server] e bo
-[14:16:10] [Server thread/INFO]: [Server] bo ngoan oi
-[14:16:17] [Server thread/INFO]: [Server] bo ngoan ?i
-[14:16:23] [Server thread/INFO]: [Server] bo ?ang làm gì ?ó
-[14:16:42] [Server thread/INFO]: [Server] Admin: Closed !
-[14:16:50] [Server thread/INFO]: Incorrect argument for command
-[14:16:50] [Server thread/INFO]: /title @a hello<--[HERE]
-[14:19:30] [Server thread/INFO]: Gave 64 [Golden Carrot] to Imyourmama123
-[14:20:21] [Server thread/INFO]: /advancement (grant|revoke)
-[14:20:21] [Server thread/INFO]: /attribute <target> <attribute> (base|get|modifier)
-[14:20:21] [Server thread/INFO]: /ban <targets> [<reason>]
-[14:20:21] [Server thread/INFO]: /ban-ip <target> [<reason>]
-[14:20:21] [Server thread/INFO]: /banlist [ips|players]
-[14:20:21] [Server thread/INFO]: /bossbar (add|get|list|remove|set)
-[14:20:21] [Server thread/INFO]: /clear [<targets>]
-[14:20:21] [Server thread/INFO]: /clone <begin> <end> <destination> [filtered|masked|replace]
-[14:20:21] [Server thread/INFO]: /data (get|merge|modify|remove)
-[14:20:21] [Server thread/INFO]: /datapack (disable|enable|list)
-[14:20:21] [Server thread/INFO]: /debug (report|start|stop)
-[14:20:21] [Server thread/INFO]: /defaultgamemode (adventure|creative|spectator|survival)
-[14:20:21] [Server thread/INFO]: /deop <targets>
-[14:20:21] [Server thread/INFO]: /difficulty [easy|hard|normal|peaceful]
-[14:20:21] [Server thread/INFO]: /effect (clear|give)
-[14:20:21] [Server thread/INFO]: /enchant <targets> <enchantment> [<level>]
-[14:20:21] [Server thread/INFO]: /execute (align|anchored|as|at|facing|if|in|positioned|rotated|run|store|unless)
-[14:20:21] [Server thread/INFO]: /experience (add|query|set)
-[14:20:21] [Server thread/INFO]: /fill <from> <to> <block> [destroy|hollow|keep|outline|replace]
-[14:20:21] [Server thread/INFO]: /forceload (add|query|remove)
-[14:20:21] [Server thread/INFO]: /function <name>
-[14:20:21] [Server thread/INFO]: /gamemode (adventure|creative|spectator|survival)
-[14:20:21] [Server thread/INFO]: /gamerule (announceAdvancements|commandBlockOutput|disableElytraMovementCheck|disableRaids|doDaylightCycle|doEntityDrops|doFireTick|doImmediateRespawn|doInsomnia|doLimitedCrafting|doMobLoot|doMobSpawning|doPatrolSpawning|doTileDrops|doTraderSpawning|doWeatherCycle|drowningDamage|fallDamage|fireDamage|forgiveDeadPlayers|keepInventory|logAdminCommands|maxCommandChainLength|maxEntityCramming|mobGriefing|naturalRegeneration|randomTickSpeed|reducedDebugInfo|sendCommandFeedback|showDeathMessages|spawnRadius|spectatorsGenerateChunks|universalAnger)
-[14:20:21] [Server thread/INFO]: /give <targets> <item> [<count>]
-[14:20:21] [Server thread/INFO]: /help [<command>]
-[14:20:21] [Server thread/INFO]: /kick <targets> [<reason>]
-[14:20:21] [Server thread/INFO]: /kill [<targets>]
-[14:20:21] [Server thread/INFO]: /list [uuids]
-[14:20:21] [Server thread/INFO]: /locate (bastion_remnant|buried_treasure|desert_pyramid|endcity|fortress|igloo|jungle_pyramid|mansion|mineshaft|monument|nether_fossil|ocean_ruin|pillager_outpost|ruined_portal|shipwreck|stronghold|swamp_hut|village)
-[14:20:21] [Server thread/INFO]: /locatebiome <biome>
-[14:20:21] [Server thread/INFO]: /loot (give|insert|replace|spawn)
-[14:20:21] [Server thread/INFO]: /me <action>
-[14:20:21] [Server thread/INFO]: /msg <targets> <message>
-[14:20:21] [Server thread/INFO]: /op <targets>
-[14:20:21] [Server thread/INFO]: /pardon <targets>
-[14:20:21] [Server thread/INFO]: /pardon-ip <target>
-[14:20:21] [Server thread/INFO]: /particle <name> [<pos>]
-[14:20:21] [Server thread/INFO]: /playsound <sound> (ambient|block|hostile|master|music|neutral|player|record|voice|weather)
-[14:20:21] [Server thread/INFO]: /recipe (give|take)
-[14:20:21] [Server thread/INFO]: /reload
-[14:20:21] [Server thread/INFO]: /replaceitem (block|entity)
-[14:20:21] [Server thread/INFO]: /save-all [flush]
-[14:20:21] [Server thread/INFO]: /save-off
-[14:20:21] [Server thread/INFO]: /save-on
-[14:20:21] [Server thread/INFO]: /say <message>
-[14:20:21] [Server thread/INFO]: /schedule (clear|function)
-[14:20:21] [Server thread/INFO]: /scoreboard (objectives|players)
-[14:20:21] [Server thread/INFO]: /seed
-[14:20:21] [Server thread/INFO]: /setblock <pos> <block> [destroy|keep|replace]
-[14:20:21] [Server thread/INFO]: /setidletimeout <minutes>
-[14:20:21] [Server thread/INFO]: /setworldspawn [<pos>]
-[14:20:21] [Server thread/INFO]: /spawnpoint [<targets>]
-[14:20:21] [Server thread/INFO]: /spectate [<target>]
-[14:20:21] [Server thread/INFO]: /spreadplayers <center> <spreadDistance> <maxRange> (under|<respectTeams>)
-[14:20:21] [Server thread/INFO]: /stop
-[14:20:21] [Server thread/INFO]: /stopsound <targets> [*|ambient|block|hostile|master|music|neutral|player|record|voice|weather]
-[14:20:21] [Server thread/INFO]: /summon <entity> [<pos>]
-[14:20:21] [Server thread/INFO]: /tag <targets> (add|list|remove)
-[14:20:21] [Server thread/INFO]: /team (add|empty|join|leave|list|modify|remove)
-[14:20:21] [Server thread/INFO]: /teammsg <message>
-[14:20:21] [Server thread/INFO]: /teleport (<destination>|<location>|<targets>)
-[14:20:21] [Server thread/INFO]: /tell -> msg
-[14:20:21] [Server thread/INFO]: /tellraw <targets> <message>
-[14:20:21] [Server thread/INFO]: /time (add|query|set)
-[14:20:21] [Server thread/INFO]: /title <targets> (actionbar|clear|reset|subtitle|times|title)
-[14:20:21] [Server thread/INFO]: /tm -> teammsg
-[14:20:21] [Server thread/INFO]: /tp -> teleport
-[14:20:21] [Server thread/INFO]: /trigger <objective> [add|set]
-[14:20:21] [Server thread/INFO]: /w -> msg
-[14:20:21] [Server thread/INFO]: /weather (clear|rain|thunder)
-[14:20:21] [Server thread/INFO]: /whitelist (add|list|off|on|reload|remove)
-[14:20:21] [Server thread/INFO]: /worldborder (add|center|damage|get|set|warning)
-[14:20:21] [Server thread/INFO]: /xp -> experience
-[14:21:14] [Server thread/INFO]: Applied enchantment Mending to NotRealIcytea's item
-[14:21:55] [Server thread/INFO]: Imyourmama123 has made the advancement [Best Friends Forever]
-[14:22:05] [Server thread/INFO]: Unknown enchantment: minecraft:clear
-[14:22:35] [Server thread/INFO]: Gave 100 [Red Mushroom] to Imyourmama123
-[14:23:39] [Server thread/INFO]: Gave 1 [Brown Mushroom] to Imyourmama123
-[14:26:00] [Server thread/INFO]: Incorrect argument for command
-[14:26:00] [Server thread/INFO]: /effect Imyourmama123 clear<--[HERE]
-[14:26:32] [Server thread/INFO]: Unknown entity: minecraft:woof
-[14:26:40] [Server thread/INFO]: Unknown entity: minecraft:dog
-[14:26:45] [Server thread/INFO]: /advancement (grant|revoke)
-[14:26:45] [Server thread/INFO]: /attribute <target> <attribute> (base|get|modifier)
-[14:26:45] [Server thread/INFO]: /ban <targets> [<reason>]
-[14:26:45] [Server thread/INFO]: /ban-ip <target> [<reason>]
-[14:26:45] [Server thread/INFO]: /banlist [ips|players]
-[14:26:45] [Server thread/INFO]: /bossbar (add|get|list|remove|set)
-[14:26:45] [Server thread/INFO]: /clear [<targets>]
-[14:26:45] [Server thread/INFO]: /clone <begin> <end> <destination> [filtered|masked|replace]
-[14:26:45] [Server thread/INFO]: /data (get|merge|modify|remove)
-[14:26:45] [Server thread/INFO]: /datapack (disable|enable|list)
-[14:26:45] [Server thread/INFO]: /debug (report|start|stop)
-[14:26:45] [Server thread/INFO]: /defaultgamemode (adventure|creative|spectator|survival)
-[14:26:45] [Server thread/INFO]: /deop <targets>
-[14:26:45] [Server thread/INFO]: /difficulty [easy|hard|normal|peaceful]
-[14:26:45] [Server thread/INFO]: /effect (clear|give)
-[14:26:45] [Server thread/INFO]: /enchant <targets> <enchantment> [<level>]
-[14:26:45] [Server thread/INFO]: /execute (align|anchored|as|at|facing|if|in|positioned|rotated|run|store|unless)
-[14:26:45] [Server thread/INFO]: /experience (add|query|set)
-[14:26:45] [Server thread/INFO]: /fill <from> <to> <block> [destroy|hollow|keep|outline|replace]
-[14:26:45] [Server thread/INFO]: /forceload (add|query|remove)
-[14:26:45] [Server thread/INFO]: /function <name>
-[14:26:45] [Server thread/INFO]: /gamemode (adventure|creative|spectator|survival)
-[14:26:45] [Server thread/INFO]: /gamerule (announceAdvancements|commandBlockOutput|disableElytraMovementCheck|disableRaids|doDaylightCycle|doEntityDrops|doFireTick|doImmediateRespawn|doInsomnia|doLimitedCrafting|doMobLoot|doMobSpawning|doPatrolSpawning|doTileDrops|doTraderSpawning|doWeatherCycle|drowningDamage|fallDamage|fireDamage|forgiveDeadPlayers|keepInventory|logAdminCommands|maxCommandChainLength|maxEntityCramming|mobGriefing|naturalRegeneration|randomTickSpeed|reducedDebugInfo|sendCommandFeedback|showDeathMessages|spawnRadius|spectatorsGenerateChunks|universalAnger)
-[14:26:45] [Server thread/INFO]: /give <targets> <item> [<count>]
-[14:26:45] [Server thread/INFO]: /help [<command>]
-[14:26:45] [Server thread/INFO]: /kick <targets> [<reason>]
-[14:26:45] [Server thread/INFO]: /kill [<targets>]
-[14:26:45] [Server thread/INFO]: /list [uuids]
-[14:26:45] [Server thread/INFO]: /locate (bastion_remnant|buried_treasure|desert_pyramid|endcity|fortress|igloo|jungle_pyramid|mansion|mineshaft|monument|nether_fossil|ocean_ruin|pillager_outpost|ruined_portal|shipwreck|stronghold|swamp_hut|village)
-[14:26:45] [Server thread/INFO]: /locatebiome <biome>
-[14:26:45] [Server thread/INFO]: /loot (give|insert|replace|spawn)
-[14:26:45] [Server thread/INFO]: /me <action>
-[14:26:45] [Server thread/INFO]: /msg <targets> <message>
-[14:26:45] [Server thread/INFO]: /op <targets>
-[14:26:45] [Server thread/INFO]: /pardon <targets>
-[14:26:45] [Server thread/INFO]: /pardon-ip <target>
-[14:26:45] [Server thread/INFO]: /particle <name> [<pos>]
-[14:26:45] [Server thread/INFO]: /playsound <sound> (ambient|block|hostile|master|music|neutral|player|record|voice|weather)
-[14:26:45] [Server thread/INFO]: /recipe (give|take)
-[14:26:45] [Server thread/INFO]: /reload
-[14:26:45] [Server thread/INFO]: /replaceitem (block|entity)
-[14:26:45] [Server thread/INFO]: /save-all [flush]
-[14:26:45] [Server thread/INFO]: /save-off
-[14:26:45] [Server thread/INFO]: /save-on
-[14:26:45] [Server thread/INFO]: /say <message>
-[14:26:45] [Server thread/INFO]: /schedule (clear|function)
-[14:26:45] [Server thread/INFO]: /scoreboard (objectives|players)
-[14:26:45] [Server thread/INFO]: /seed
-[14:26:45] [Server thread/INFO]: /setblock <pos> <block> [destroy|keep|replace]
-[14:26:45] [Server thread/INFO]: /setidletimeout <minutes>
-[14:26:45] [Server thread/INFO]: /setworldspawn [<pos>]
-[14:26:45] [Server thread/INFO]: /spawnpoint [<targets>]
-[14:26:45] [Server thread/INFO]: /spectate [<target>]
-[14:26:45] [Server thread/INFO]: /spreadplayers <center> <spreadDistance> <maxRange> (under|<respectTeams>)
-[14:26:45] [Server thread/INFO]: /stop
-[14:26:45] [Server thread/INFO]: /stopsound <targets> [*|ambient|block|hostile|master|music|neutral|player|record|voice|weather]
-[14:26:45] [Server thread/INFO]: /summon <entity> [<pos>]
-[14:26:45] [Server thread/INFO]: /tag <targets> (add|list|remove)
-[14:26:45] [Server thread/INFO]: /team (add|empty|join|leave|list|modify|remove)
-[14:26:45] [Server thread/INFO]: /teammsg <message>
-[14:26:45] [Server thread/INFO]: /teleport (<destination>|<location>|<targets>)
-[14:26:45] [Server thread/INFO]: /tell -> msg
-[14:26:45] [Server thread/INFO]: /tellraw <targets> <message>
-[14:26:45] [Server thread/INFO]: /time (add|query|set)
-[14:26:45] [Server thread/INFO]: /title <targets> (actionbar|clear|reset|subtitle|times|title)
-[14:26:45] [Server thread/INFO]: /tm -> teammsg
-[14:26:45] [Server thread/INFO]: /tp -> teleport
-[14:26:45] [Server thread/INFO]: /trigger <objective> [add|set]
-[14:26:45] [Server thread/INFO]: /w -> msg
-[14:26:45] [Server thread/INFO]: /weather (clear|rain|thunder)
-[14:26:45] [Server thread/INFO]: /whitelist (add|list|off|on|reload|remove)
-[14:26:45] [Server thread/INFO]: /worldborder (add|center|damage|get|set|warning)
-[14:26:45] [Server thread/INFO]: /xp -> experience
-[14:27:07] [Server thread/INFO]: Summoned new Wolf
-[14:27:26] [Server thread/INFO]: Summoned new Wolf
-[14:28:00] [Server thread/INFO]: Summoned new Wolf
-[14:28:36] [Server thread/INFO]: Gave 1 [Wolf Spawn Egg] to Imyourmama123
-[14:29:00] [Server thread/INFO]: NotRealIcytea was slain by Wolf
-[14:32:35] [Server thread/INFO]: Gave 1 [Name Tag] to Imyourmama123
-[14:41:42] [Server thread/INFO]: Gave 1 [Wolf Spawn Egg] to NotRealIcytea
-[14:42:17] [Server thread/INFO]: Gave 1 [Name Tag] to NotRealIcytea
-[14:42:51] [Server thread/INFO]: NotRealIcytea has made the advancement [Best Friends Forever]
-[14:52:14] [Server thread/INFO]: NotRealIcytea was slain by Imyourmama123
-[14:52:37] [Server thread/INFO]: Gave 1 [Wolf Spawn Egg] to NotRealIcytea
-[14:52:50] [Server thread/INFO]: Gave 1 [Name Tag] to NotRealIcytea
-[14:56:03] [Server thread/INFO]: Teleported Imyourmama123 to NotRealIcytea
-[14:56:06] [Server thread/INFO]: NotRealIcytea has made the advancement [The Parrots and the Bats]
-[15:00:30] [Server thread/INFO]: Gave 1 [Name Tag] to NotRealIcytea
-[15:02:11] [Server thread/INFO]: Unknown item 'mincraft:ghast_tear'
-[15:02:11] [Server thread/INFO]: ...urmama123 mincraft:ghast_tear<--[HERE]
-[15:02:34] [Server thread/INFO]: Unknown item 'minecraft:ghast_tears'
-[15:02:34] [Server thread/INFO]: ...urmama123 minecraft:ghast_tears<--[HERE]
-[15:17:24] [Server thread/INFO]: Gave 64 [Glowstone] to Imyourmama123
-[15:17:40] [Server thread/INFO]: Gave 64 [Red Carpet] to Imyourmama123
-[15:17:58] [Server thread/INFO]: Gave 64 [White Carpet] to Imyourmama123
-[15:20:38] [Server thread/INFO]: Imyourmama123 lost connection: Disconnected
-[15:20:38] [Server thread/INFO]: Imyourmama123 left the game
-[15:20:40] [Server thread/INFO]: NotRealIcytea lost connection: Disconnected
-[15:20:40] [Server thread/INFO]: NotRealIcytea left the game
-[15:20:43] [Server thread/INFO]: Stopping the server
-[15:20:43] [Server thread/INFO]: Stopping server
-[15:20:43] [Server thread/INFO]: Saving players
-[15:20:43] [Server thread/INFO]: Saving worlds
-[15:20:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[15:20:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[15:20:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[15:20:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[15:20:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[15:20:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[15:20:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[15:20:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[15:20:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:29:34] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:29:34] [Server thread/INFO]: Using default channel type
+[16:29:36] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:29:36] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:29:36] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:29:36] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:29:36] [Server thread/INFO]: Preparing level "world"
+[16:29:36] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:29:38] [Server thread/INFO]: Preparing spawn area: 0%
+[16:29:38] [Server thread/INFO]: Preparing spawn area: 0%
+[16:29:38] [Server thread/INFO]: Preparing spawn area: 0%
+[16:29:38] [Server thread/INFO]: Preparing spawn area: 0%
+[16:29:39] [Server thread/INFO]: Preparing spawn area: 0%
+[16:29:39] [Server thread/INFO]: Preparing spawn area: 0%
+[16:29:41] [Server thread/INFO]: Time elapsed: 4265 ms
+[16:29:41] [Server thread/INFO]: Done (4.433s)! For help, type "help"
+[16:43:48] [Server thread/INFO]: Stopping the server
+[16:43:48] [Server thread/INFO]: Stopping server
+[16:43:48] [Server thread/INFO]: Saving players
+[16:43:48] [Server thread/INFO]: Saving worlds
+[16:43:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[16:43:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:43:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[16:43:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:43:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[16:43:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:43:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:43:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:43:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
